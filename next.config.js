@@ -5,8 +5,6 @@ const nextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
-  distDir: 'dist',
-  cleanDistDir: true,
 }
 
 module.exports = nextConfig 
