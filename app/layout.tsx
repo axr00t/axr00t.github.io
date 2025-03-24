@@ -7,8 +7,8 @@ import { Footer } from "@/components/Footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "AXROOT - Cybersecurity Research",
-  description: "Cybersecurity research, articles, and tools",
+  title: 'axroot',
+  description: 'Cybersecurity research, articles, and tools',
   icons: {
     icon: [
       {
