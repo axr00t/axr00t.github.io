@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { ArrowLeft, Calendar, User, Tag, Share2 } from "lucide-react"
+import { Metadata } from "next"
 
 // Sample data
 const relatedArticles = [
@@ -39,7 +40,7 @@ export async function generateStaticParams() {
   })
 }
 
-export default function ArticlePage({ params }: { params: { slug: string } }) {
+export default function ArticlePage({ params }: any) {
   // In a real application, you would fetch the article based on the slug
   // For this example, we'll use a mock article
   const article = {

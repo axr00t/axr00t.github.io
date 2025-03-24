@@ -7,8 +7,23 @@ import { Footer } from "@/components/Footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "axroot",
-  description: "Exploring vulnerabilities, exploits, and security techniques in the digital underground.",
+  title: "AXROOT - Cybersecurity Research",
+  description: "Cybersecurity research, articles, and tools",
+  icons: {
+    icon: [
+      {
+        url: 'https://cdn-icons-png.flaticon.com/512/6463/6463391.png',
+        sizes: '512x512',
+        type: 'image/png',
+      }
+    ],
+    shortcut: [
+      {
+        url: 'https://cdn-icons-png.flaticon.com/512/6463/6463391.png',
+        type: 'image/png',
+      }
+    ],
+  },
 }
 
 export default function RootLayout({
