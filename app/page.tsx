@@ -152,8 +152,8 @@ const featuredTools: Tool[] = [
     name: "Enum Bounty",
     description: "Tool to automate the enumeration process in Bug Bounty programs by performing a wide variety of enumeration tasks.",
     language: "Python",
-    githubUrl: "https://github.com/axr00t/enum-bounty",
-    downloadUrl: "https://github.com/axr00t/enum-bounty",
+    githubUrl: "https://github.com/axr00t/enumbounty",
+    downloadUrl: "https://github.com/axr00t/enumbounty",
   },
 ]
 

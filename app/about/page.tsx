@@ -28,43 +28,11 @@ export default function About() {
           <div className="max-w-3xl mx-auto">
             <div className="space-y-6">
               <h2 className="text-2xl font-bold text-white">
-                <span className="text-white">~$ cat</span> MISSION
+                <span className="text-white">~$ cat</span> WHOAMI
               </h2>
               <p className="opacity-80">
-                AXROOT is dedicated to advancing cybersecurity knowledge through in-depth research, technical analysis,
-                and educational content. Our mission is to explore the digital underground, document vulnerabilities,
-                and share defensive techniques with the security community.
-              </p>
-
-              <h2 className="text-2xl font-bold text-white mt-8">
-                <span className="text-white">~$ cat</span> WHO_WE_ARE
-              </h2>
-              <p className="opacity-80">
-                Founded by a passionate cybersecurity researcher known online as "axroot," this platform serves as a
-                repository for technical articles, tools, and resources focused on various aspects of information
-                security. With experience in vulnerability research, exploit development, and defensive security, axroot
-                aims to bridge the gap between theoretical security concepts and practical applications.
-              </p>
-
-              <h2 className="text-2xl font-bold text-white mt-8">
-                <span className="text-white">~$ cat</span> OUR_FOCUS
-              </h2>
-              <ul className="list-disc pl-5 opacity-80 space-y-2">
-                <li>Vulnerability research and responsible disclosure</li>
-                <li>Malware analysis and reverse engineering</li>
-                <li>Exploit development and mitigation techniques</li>
-                <li>Network security and protocol analysis</li>
-                <li>Web application security</li>
-                <li>Operating system internals and kernel security</li>
-              </ul>
-
-              <h2 className="text-2xl font-bold text-white mt-8">
-                <span className="text-white">~$ cat</span> ETHICS_STATEMENT
-              </h2>
-              <p className="opacity-80">
-                All content on AXROOT is provided for educational and research purposes only. We believe in responsible
-                disclosure and ethical hacking practices. The techniques and information shared on this platform should
-                be used legally and ethically, with proper authorization when testing or analyzing systems.
+                Cybersecurity professional with experience in Purple and Red Team. Passionate about the offensive area, 
+                I am constantly acquiring knowledge to always improve myself and deliver the best results.
               </p>
 
               <h2 className="text-2xl font-bold mb-6 flex items-center">
