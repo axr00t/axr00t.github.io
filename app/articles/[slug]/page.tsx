@@ -1,6 +1,44 @@
 import Link from "next/link"
 import { ArrowLeft, Calendar, User, Tag, Share2 } from "lucide-react"
 
+// Sample data
+const relatedArticles = [
+  {
+    title: "Memory Corruption Vulnerabilities in C++",
+    slug: "memory-corruption-cpp",
+    date: "2023-10-05",
+  },
+  {
+    title: "Exploiting Format String Vulnerabilities",
+    slug: "format-string-vulnerabilities",
+    date: "2023-09-18",
+  },
+  {
+    title: "Return-Oriented Programming (ROP) Techniques",
+    slug: "rop-techniques",
+    date: "2023-08-30",
+  },
+]
+
+// Lista de todos os artigos disponíveis
+const allArticles = [
+  {
+    title: "Exploiting Buffer Overflows in Modern Applications",
+    slug: "buffer-overflows-modern-applications",
+    date: "2023-11-15",
+  },
+  ...relatedArticles,
+]
+
+export async function generateStaticParams() {
+  // Retorna um array de objetos com a propriedade slug
+  return allArticles.map((article) => {
+    return {
+      slug: article.slug,
+    }
+  })
+}
+
 export default function ArticlePage({ params }: { params: { slug: string } }) {
   // In a real application, you would fetch the article based on the slug
   // For this example, we'll use a mock article
@@ -212,23 +250,4 @@ void vulnerable_function(char *input) {
     </main>
   )
 }
-
-// Sample data
-const relatedArticles = [
-  {
-    title: "Memory Corruption Vulnerabilities in C++",
-    slug: "memory-corruption-cpp",
-    date: "2023-10-05",
-  },
-  {
-    title: "Exploiting Format String Vulnerabilities",
-    slug: "format-string-vulnerabilities",
-    date: "2023-09-18",
-  },
-  {
-    title: "Return-Oriented Programming (ROP) Techniques",
-    slug: "rop-techniques",
-    date: "2023-08-30",
-  },
-]
 
