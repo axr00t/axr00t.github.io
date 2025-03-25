@@ -3,6 +3,13 @@ import { Calendar, User } from "lucide-react"
 
 const articles = [
   {
+    title: "How to become a 'Hacker'",
+    slug: "how-to-become-a-hacker",
+    excerpt: "A complete guide on how to become a 'hacker' what you really need to know.",
+    date: "2025-03-25",
+    author: "axroot",
+  },
+  {
     title: "Mr. Robot CTF Writeup",
     slug: "mr-robot",
     excerpt: "Writeup detalhado da máquina Mr. Robot do VulnHub, explorando vulnerabilidades e técnicas de exploração.",
@@ -35,7 +42,7 @@ export default function ArticlesPage() {
                 href={`/articles/${article.slug}`}
                 className="mt-4 inline-block text-sm text-white hover:text-gray-400 transition-colors"
               >
-                Ler mais →
+                Read More →
               </Link>
             </article>
           ))}
