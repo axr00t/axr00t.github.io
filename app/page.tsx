@@ -132,10 +132,10 @@ export default function Home() {
 // Sample data
 const featuredArticles = [
   {
-    title: "How to become a Hacker",
+    title: "How to become a 'Hacker'",
     slug: "how-to-become-a-hacker",
     excerpt: "A complete guide on how to become a 'hacker' what you really need to know.",
-    date: "2024-03-24",
+    date: "2025-03-25",
     author: "axroot",
   },
   {
