@@ -1,8 +1,8 @@
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "How to become a Hacker | AXROOT",
-  description: "Um guia completo sobre como se tornar um hacker, desde os conceitos básicos até técnicas avançadas de segurança ofensiva.",
+  title: "How to become a Hacker | axroot",
+  description: " A complete guide on how to become a 'hacker' what you really need to know.",
 }
 
 export default function HowToBecomeHackerArticle() {

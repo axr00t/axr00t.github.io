@@ -1,8 +1,8 @@
 import { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "Mr. Robot CTF Writeup | AXROOT",
-  description: "Writeup detalhado da máquina Mr. Robot do VulnHub, explorando vulnerabilidades e técnicas de exploração.",
+  title: "Mr. Robot CTF Writeup | axroot",
+  description: "Writeup of the Mr. Robot CTF (TryHackMe), exploring vulnerabilities and exploitation techniques.",
 }
 
 export default function MrRobotArticle() {

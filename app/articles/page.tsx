@@ -12,7 +12,7 @@ const articles = [
   {
     title: "Mr. Robot CTF Writeup",
     slug: "mr-robot",
-    excerpt: "Writeup detalhado da máquina Mr. Robot do VulnHub, explorando vulnerabilidades e técnicas de exploração.",
+    excerpt: "Writeup of the Mr. Robot CTF (TryHackMe), exploring vulnerabilities and exploitation techniques.",
     date: "2024-03-24",
     author: "axroot",
   },
