@@ -21,7 +21,7 @@ export default function Home() {
               <span className="text-white">axroot@axroot ~$</span>
             </h1>
             <p className="text-lg mb-8 opacity-80">
-              Exploring vulnerabilities, exploits, and security techniques in the digital underground.
+              I share content about the world of hacking.
             </p>
           </div>
         </div>
