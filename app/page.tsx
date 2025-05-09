@@ -21,7 +21,7 @@ export default function Home() {
               <span className="text-white">axroot@axroot ~$</span>
             </h1>
             <p className="text-lg mb-8 opacity-80">
-              I share content about the world of hacking.
+              I share content about hacking.
             </p>
           </div>
         </div>
@@ -103,28 +103,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Featured Videos Section */}
-      <section className="py-12 bg-white/5 border-y border-white/30">
-        <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold mb-8 flex items-center">
-            <span className="text-white mr-2">~$ ls</span>
-            <span className="text-white">FEATURED_VIDEOS</span>
-          </h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {featuredVideos.map((video, index) => (
-              <YouTubeVideo
-                key={index}
-                title={video.title}
-                thumbnail={video.thumbnail}
-                url={video.url}
-                date={video.date}
-              />
-            ))}
-          </div>
-        </div>
-      </section>
     </div>
   )
 }
@@ -161,14 +139,5 @@ const featuredTools: Tool[] = [
     language: "Python",
     githubUrl: "https://github.com/axr00t/enumbounty",
     downloadUrl: "https://github.com/axr00t/enumbounty",
-  },
-]
-
-const featuredVideos = [
-  {
-    title: "Como Hackers Obtém Dados Pessoais",
-    thumbnail: "https://i.imgur.com/x6hZqiX.png",
-    url: "https://youtu.be/ksTD6nud9IY?si=9iNso0gPcySf4daf",
-    date: "2024-02-18",
   },
 ]
