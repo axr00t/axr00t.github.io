@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowLeft, Github, Twitter, Mail, Linkedin, MessageSquare, Youtube } from "lucide-react"
+import { ArrowLeft, Github, Twitter, Mail, MessageSquare, Youtube } from "lucide-react"
 
 export default function About() {
   return (
@@ -49,16 +49,6 @@ export default function About() {
                 >
                   <Github className="h-6 w-6 text-white" />
                   <span className="text-white">GitHub</span>
-                </a>
-
-                <a
-                  href="https://linkedin.com/in/yoon-santos"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center space-x-3 p-4 border border-white/30 hover:bg-white/5 transition-colors"
-                >
-                  <Linkedin className="h-6 w-6 text-white" />
-                  <span className="text-white">LinkedIn</span>
                 </a>
 
                 <a
